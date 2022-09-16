@@ -8,5 +8,6 @@ createSchema({
   },
   generator: {
     provider: 'prisma-client-js',
+    binaryTargets: ['native', 'linux-musl'],
   },
 }).export(__dirname, 'schema');
